@@ -13,7 +13,7 @@ import bug from '../assets/bug.svg';
 export default function Sidenav() {
   return (
     <div className="container">
-      <div className="pt-3 logo text-white">
+      <div className="pt-4 logo text-white">
         <img src={logo} alt="logo" />
         <span className="fs-5 p-1 fw-bold">Quest</span>
       </div>
