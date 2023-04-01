@@ -1,17 +1,17 @@
 .container {
   left: 0;
   width: 200px;
-  height: 100vh;
-  border: 1px solid red;
+  height: 100%;
   background-color: #242424;
   color: #727272;
   padding-left: 20px;
+  position: relative;
 }
 body {
   background: #141414;
 }
 .logo {
-  height: 100px;
+  height: 120px;
 }
 
 .sat {
@@ -27,8 +27,7 @@ body {
   height: 40px;
 }
 .card {
-  background: #141414;
-  width: 330px;
+  background: #242424;
   height: 100px;
   border-radius: 12px;
 }
@@ -46,10 +45,8 @@ body {
 .card-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 10px;
-}
-.main-container {
-  display: flex;
+  gap: 20px;
+  padding: 34px;
 }
 p {
   color: #afafaf;
@@ -60,21 +57,78 @@ p {
   height: 38px;
   color: white;
   background: radial-gradient(
-      98.75% 3360.24% at 0% 100%,
-      #6200ee 0%,
-      #1f3efe 100%
-    );
+    98.75% 3360.24% at 0% 100%,
+    #6200ee 0%,
+    #1f3efe 100%
+  );
   border-radius: 8px;
 }
-.other-half{
-width: 100%;
+.other-half {
+  width: 100%;
 }
 .navdiv {
-  height: 8%;
+  height: 7%;
   width: 100%;
   background-color: #141414;
-  border-bottom: 1px #afafaf;
-  padding: 10px;
-  /* display: flex; */
+  border-bottom: 1px solid #4d4c4c;
+  padding: 15px;
   justify-content: space-between;
+}
+.charts{
+  padding-left: 30px;
+  width:98%;
+}
+.chart-card{
+  background: #242424;
+  padding: 20px;
+  border-radius: 12px;
+}
+.line-chart{
+  height: 250px;
+  width: 800px;
+}
+.pie{
+  height: 210px;
+  padding-bottom: 20px;
+}
+.colo {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.twitter{
+  background-color: rgba(170, 65, 251, 0.4);
+}
+.meta {
+background-color:rgb(97,34,154) ;
+}
+.discord {
+background-color: rgb(97,55,129);
+}
+.piechart{
+  padding-left: 50px;
+  width: 420px;
+  margin-left: 20px;
+}
+table {
+  color: white;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid #2c2c2c;
+  padding: 5px;
+  padding-left: 2%;
+}
+.heading td {
+  width: 10%;
+}
+.tag {
+  border-radius: 8px;
+  border: 1px solid #727272;
+}
+.table-card{
+  width: 96%;
+}
+.sub{
+  font-size: 12px;
 }

@@ -5,8 +5,8 @@ export default function Nav() {
   return (
     <div className="navdiv d-flex">
       <div>
-        <p>
-          Quest/<span className="text-white">Insights</span>
+        <p className='pt-2'>
+          Quest / <span className="text-white">Insights</span>
         </p>
       </div>
       <div className="d-flex">
