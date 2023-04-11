@@ -1,8 +1,11 @@
 import './App.css';
-import Analytics from './components/Analytics';
+import Ecom from './components/Ecom';
+// import Analytics from './components/Analytics';  
 
 function App() {
-  return <Analytics />;
+  return (
+    <Ecom />
+  );
 }
 
 export default App;

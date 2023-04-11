@@ -74,20 +74,20 @@ p {
   padding: 15px;
   justify-content: space-between;
 }
-.charts{
+.charts {
   padding-left: 30px;
-  width:98%;
+  width: 98%;
 }
-.chart-card{
+.chart-card {
   background: #242424;
   padding: 20px;
   border-radius: 12px;
 }
-.line-chart{
+.line-chart {
   height: 250px;
   width: 800px;
 }
-.pie{
+.pie {
   height: 210px;
   padding-bottom: 20px;
 }
@@ -96,16 +96,16 @@ p {
   height: 15px;
   border-radius: 50%;
 }
-.twitter{
+.twitter {
   background-color: rgba(170, 65, 251, 0.4);
 }
 .meta {
-background-color:rgb(97,34,154) ;
+  background-color: rgb(97, 34, 154);
 }
 .discord {
-background-color: rgb(97,55,129);
+  background-color: rgb(97, 55, 129);
 }
-.piechart{
+.piechart {
   padding-left: 50px;
   width: 420px;
   margin-left: 20px;
@@ -126,9 +126,60 @@ td {
   border-radius: 8px;
   border: 1px solid #727272;
 }
-.table-card{
+.table-card {
   width: 96%;
 }
-.sub{
+.sub {
   font-size: 12px;
+}
+
+.first-part {
+  width: 60%;
+  gap: 30px;
+}
+.first-part div,
+.second-part div {
+  padding: 10px;
+}
+.second-part div {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.second-part {
+  position: absolute;
+  gap: 30px;
+  right: 10%;
+}
+.nav-container {
+  position: relative;
+  color: white;
+  background-color: black;
+}
+.ecom {
+  background: rgba(41, 0, 100, 1);
+  height: 100vh;
+}
+.ecom-page{
+  text-align: center;
+  padding-top: 20%;
+}
+.input-container {
+  width: 600px;
+  height: 80px;
+  position: relative;
+  margin: auto;
+}
+.ecom-input{
+  width:100%;
+  height: 100%;
+}
+.btn{
+  position: absolute;
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  right: 5px;
+  border-radius: 5px;
+  background: radial-gradient(98.75% 3360.24% at 0% 100%, #6200EE 0%, #1F3EFE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
 }
