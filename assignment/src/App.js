@@ -4,7 +4,8 @@ import Ecom from './components/Ecom';
 
 function App() {
   return (
-    <Ecom />
+    //<Ecom />
+   <Analytics />
   );
 }
 
